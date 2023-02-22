@@ -19,7 +19,6 @@ d3.json('/api/v1.0/salary').then(function (data) {
     var data = [trace1];
 
     var layout = {
-        title: 'Median Salaries by Job Role',
         xaxis: {
             title: 'Job Role'
         },
@@ -34,7 +33,7 @@ d3.json('/api/v1.0/salary').then(function (data) {
 });
 
 // Define the API URL
-const apiUrl = "http://127.0.0.1:5000/api/v1.0/tools";
+const apiUrl = "http://127.0.0.1:5050/api/v1.0/tools";
 
 // Use d3.json() to fetch the data from the API
 d3.json(apiUrl).then(function (data) {
@@ -45,7 +44,7 @@ d3.json(apiUrl).then(function (data) {
 
     // Sort the data in descending order by count
     toolsData.sort(function (a, b) {
-        return b.count - a.count;
+        return a.count - b.count;
     });
 
     // Extract the tool names and counts for Plotly
@@ -58,8 +57,7 @@ d3.json(apiUrl).then(function (data) {
 
     // Define the Plotly data and layout objects
     const plotData = [{ x: toolCounts, y: toolNames, type: "bar", orientation: "h" }];
-    const plotLayout = { title: "Data Analysis Tools by Count" };
 
     // Use Plotly.newPlot() to create the bar chart
-    Plotly.newPlot("bar", plotData, plotLayout);
+    Plotly.newPlot("bar", plotData);
 });

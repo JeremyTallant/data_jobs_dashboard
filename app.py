@@ -76,7 +76,7 @@ def states():
     return render_template('states.html')
 
 # Define the route to render the states charts page
-@app.route('/states_charts')
+@app.route('/states_chart')
 def states_charts():
     return render_template('states_charts.html')
 
@@ -88,4 +88,4 @@ def job_charts():
 
 # Run the app on port 5000
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5050)

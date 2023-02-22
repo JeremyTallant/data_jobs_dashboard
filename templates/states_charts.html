@@ -30,7 +30,7 @@
 <body class="bg-light">
     <!-- Start of navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-0">
-        <a class="navbar-brand custom-bg-color text-white p-2" href="http://127.0.0.1:5000/">Dashboard</a>
+        <a class="navbar-brand custom-bg-color text-white p-2" href="http://127.0.0.1:5050/">Dashboard</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,9 +41,9 @@
                     <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Navigation</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/jcharts">Job Analysis Charts</a>
-                        <a class="dropdown-item" href="/states_table">States Data Table</a>
-                        <a class="dropdown-item" href="/jobs_table">Jobs Data Table</a>
+                        <a class="dropdown-item" href="/job_charts">Job Analysis Charts</a>
+                        <a class="dropdown-item" href="/states">States Data Table</a>
+                        <a class="dropdown-item" href="/jobs">Jobs Data Table</a>
                     </div>
                 </li>
             </ul>
@@ -57,7 +57,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h3 class="text-center">Median Houshold Income by State</h3>
-                <div id="chart"></div>
+                <div id="barchart"></div>
                 <script src="static/js/logic1.js"></script>
             </div>
         </div>

@@ -72,6 +72,10 @@ html {
     font-size: 14px;
 }
 
+h1, p {
+    color: white;
+}
+
 
 
 h4.card-header.text-info {
