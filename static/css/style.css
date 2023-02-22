@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #b81717;
+}
+
+#map,
+body,
+html {
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar.navbar-light.bg-white {
+    background-color: #b81717 !important;
+}
+
+.nav-link:hover {
+    background-color: #b81717 !important;
+    color: white !important;
+}
+
+.viz-box:hover {
+    border-color: #b81717;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.custom-bg-color {
+    background-color: #b81717;
+}
+
+.card-body .active {
+    border-color: #b81717;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b81717 !important;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-color: #b81717 !important;
+}
+
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-wrap {
+    float: left;
+    width: 100%;
+}
+
+#text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.td {
+    font-size: 14px;
+}
+
+
+
+h4.card-header.text-info {
+    background-color: #b81717;
+    color: #f8f8f8 !important;
+}
+
+h3.card-header.text-info {
+    background-color: #b81717;
+    color: #f8f8f8 !important;
+}
+
+h5.text-info.text-center {
+    color: #b81717;
+}
+
+@media (max-width: 768px) {
+    .navbar-light.bg-white {
+        background-color: #b81717 !important;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    #img-wrap {
+        float: none;
+    }
+}
