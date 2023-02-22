@@ -1,0 +1,39 @@
+{
+    "status": "OK",
+    "request_id": "a18b2efb-bfc2-4f5f-97a0-996442b5bbf7",
+    "data": [
+        {
+            "location": "Dallas, TX",
+            "job_title": "Data Analyst",
+            "publisher_name": "Indeed",
+            "publisher_link": "https://www.indeed.com/cmp/Toyota/salaries/Data-Analyst/Dallas-TX",
+            "min_salary": 42000,
+            "max_salary": 129000,
+            "median_salary": 84828.27,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Texas",
+            "job_title": "Data Analyst",
+            "publisher_name": "Glassdoor",
+            "publisher_link": "https://www.glassdoor.com/Salaries/dallas-data-analyst-salary-SRCH_IL.0,6_IM218_KO7,19.htm",
+            "min_salary": 49302,
+            "max_salary": 105823,
+            "median_salary": 72231,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Texas",
+            "job_title": "Data Analyst",
+            "publisher_name": "ZipRecruiter",
+            "publisher_link": "https://www.ziprecruiter.com/Salaries/Data-Analyst-Salary--in-Texas",
+            "min_salary": 35142,
+            "max_salary": 94004,
+            "median_salary": 56734,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        }
+    ]
+}

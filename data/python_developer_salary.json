@@ -1,0 +1,39 @@
+{
+    "status": "OK",
+    "request_id": "9d2cf67d-84e5-4183-ba41-577604a8e6dc",
+    "data": [
+        {
+            "location": "Dallas, TX",
+            "job_title": "Python Developer",
+            "publisher_name": "Indeed",
+            "publisher_link": "https://www.indeed.com/cmp/Jobot/salaries/Python-Developer/Dallas-TX",
+            "min_salary": 161081.95,
+            "max_salary": 203205.78,
+            "median_salary": 180922.03,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Texas",
+            "job_title": "Python Developer",
+            "publisher_name": "Salary.com",
+            "publisher_link": "https://www.salary.com/research/salary/posting/python-developer-salary/tx",
+            "min_salary": 80731,
+            "max_salary": 111870,
+            "median_salary": 95822,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "United States",
+            "job_title": "Python Developer",
+            "publisher_name": "Glassdoor",
+            "publisher_link": "https://www.glassdoor.com/Salary/Amazon-Python-Developer-Salaries-E6036_D_KO7,23.htm",
+            "min_salary": 91093,
+            "max_salary": 144981,
+            "median_salary": 114921,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        }
+    ]
+}

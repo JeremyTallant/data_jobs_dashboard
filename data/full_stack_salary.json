@@ -1,0 +1,39 @@
+{
+    "status": "OK",
+    "request_id": "76e17e20-5a37-43ec-96fa-a72c5f5277ce",
+    "data": [
+        {
+            "location": "Texas",
+            "job_title": "Full Stack Developer",
+            "publisher_name": "Indeed",
+            "publisher_link": "https://www.indeed.com/career/full-stack-developer/salaries/TX",
+            "min_salary": 69894.57168583518,
+            "max_salary": 165444.40129389786,
+            "median_salary": 107534.48547445802,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Dallas, TX",
+            "job_title": "Full Stack Developer",
+            "publisher_name": "Glassdoor",
+            "publisher_link": "https://www.glassdoor.com/Salary/Dallas-Morning-News-Full-Stack-Developer-Dallas-Salaries-EJI_IE119315.0,19_KO20,40_IL.41,47_IM218.htm",
+            "min_salary": 84662,
+            "max_salary": 122832,
+            "median_salary": 101976,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Texas",
+            "job_title": "Full Stack Software Developer",
+            "publisher_name": "ZipRecruiter",
+            "publisher_link": "https://www.ziprecruiter.com/Salaries/Full-Stack-Software-Developer-Salary--in-Texas",
+            "min_salary": 62377,
+            "max_salary": 134418,
+            "median_salary": 89973,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        }
+    ]
+}

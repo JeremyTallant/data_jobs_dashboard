@@ -1,0 +1,39 @@
+{
+    "status": "OK",
+    "request_id": "44f65b01-e7d6-45f6-92a1-9f9d5364e455",
+    "data": [
+        {
+            "location": "Dallas, TX",
+            "job_title": "Data Scientist",
+            "publisher_name": "Indeed",
+            "publisher_link": "https://www.indeed.com/career/data-scientist/salaries/Dallas--TX",
+            "min_salary": 72751.93941420494,
+            "max_salary": 180201.42035681414,
+            "median_salary": 114498.92058946479,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Austin, TX",
+            "job_title": "Data Scientist",
+            "publisher_name": "Built In Austin",
+            "publisher_link": "https://www.builtinaustin.com/salaries/data-analytics/data-scientist/austin",
+            "min_salary": 80000,
+            "max_salary": 150000,
+            "median_salary": 101444,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        },
+        {
+            "location": "Texas",
+            "job_title": "Data Scientist",
+            "publisher_name": "Glassdoor",
+            "publisher_link": "https://www.glassdoor.com/Salaries/dallas-data-scientist-salary-SRCH_IL.0,6_IM218_KO7,21.htm",
+            "min_salary": 67603,
+            "max_salary": 163089,
+            "median_salary": 105001,
+            "salary_period": "YEAR",
+            "salary_currency": "USD"
+        }
+    ]
+}
