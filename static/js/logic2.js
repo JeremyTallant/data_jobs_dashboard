@@ -1,14 +1,20 @@
+// Use d3.json() to fetch the salary data from the API
 d3.json('/api/v1.0/salary').then(function (data) {
+
+    // Extract the job roles and median salaries from the data
     var jobRoles = data.map(function (d) { return d['Job Role']; });
     var medianSalaries = data.map(function (d) { return d['Median Salary']; });
 
+    // Create a Plotly trace for the bar chart
     var trace1 = {
         x: jobRoles,
         y: medianSalaries,
         type: 'bar',
+        // Define the color and opacity of the bars
         marker: {
-            color: 'rgb(158,202,225)',
+            color: ['red', 'blue', 'green', 'purple'],
             opacity: 0.6,
+            // Define the color and width of the bar outlines
             line: {
                 color: 'rgb(8,48,107)',
                 width: 1.5
@@ -16,8 +22,10 @@ d3.json('/api/v1.0/salary').then(function (data) {
         }
     };
 
+    // Create a data array with the trace
     var data = [trace1];
 
+    // Define the layout of the bar chart
     var layout = {
         xaxis: {
             title: 'Job Role'
@@ -27,6 +35,7 @@ d3.json('/api/v1.0/salary').then(function (data) {
         }
     };
 
+    //Create the bar chart using Plotly 
     Plotly.newPlot('plot', data, layout);
 }).catch(function (error) {
     console.log(error);
@@ -56,7 +65,15 @@ d3.json(apiUrl).then(function (data) {
     });
 
     // Define the Plotly data and layout objects
-    const plotData = [{ x: toolCounts, y: toolNames, type: "bar", orientation: "h" }];
+    const plotData = [{
+        x: toolCounts,
+        y: toolNames,
+        type: "bar",
+        orientation: "h",
+        marker: {
+            color: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
+        }
+    }];
 
     // Use Plotly.newPlot() to create the bar chart
     Plotly.newPlot("bar", plotData);
