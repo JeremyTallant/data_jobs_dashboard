@@ -10,10 +10,23 @@ html {
     height: 600px;
     width: 100%;
     padding: 10px;
+    background-color: #0b3541;
+}
+
+.container {
+    max-width: 100%;
 }
 
 .navbar.navbar-light.bg-white {
     background-color: #0b3541 !important;
+}
+
+.navbar {
+    margin-right: 70px;
+}
+
+td:hover {
+    background-color: transparent !important;
 }
 
 .nav-link:hover {
@@ -76,6 +89,9 @@ h1, p {
     color: white;
 }
 
+.bg-light {
+    background-color: #0b3541 !important;
+}
 
 
 h4.card-header.text-info {
