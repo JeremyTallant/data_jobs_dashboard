@@ -34,3 +34,14 @@ The following technologies were used to develop the project:
 * JavaScript (including Plotly, Leaflet, and D3.js)
 * HTML and CSS
 * Bootstrap
+
+## Features
+The data dashboard contains several features that enable users to explore and analyze job listings within the world of data. The homepage features an interactive map that displays markers for each job listing, including the employer name, job city, job title, and whether the position is remote. Each marker also includes a link for applying to the job. The homepage also features four buttons that navigate to each respective page.
+
+The "States" page displays a bar chart of the median household income for each state, providing job seekers with information to compare the salary of a job listing against the median income for that state.
+
+The "Jobs" page contains two bar charts. The first chart compares the median salary of four common job positions in the field of data: python developer, data scientist, full-stack developer, and data analyst. The second chart displays the frequency of tools mentioned in the job descriptions of the listed positions. This information can be used by job seekers to determine which skills to prioritize in their job search.
+
+The dashboard also features two pages with data tables. The "States" data table includes information such as the state's website, demonym, nickname, and founded date. The "Jobs" data table contains information on each job listing displayed on the map, including the job description.
+
+The navigation menu allows users to easily switch between the different pages of the dashboard.
