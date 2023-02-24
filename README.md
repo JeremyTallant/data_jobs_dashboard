@@ -38,10 +38,39 @@ The following technologies were used to develop the project:
 ## Features
 The data dashboard contains several features that enable users to explore and analyze job listings within the world of data. The homepage features an interactive map that displays markers for each job listing, including the employer name, job city, job title, and whether the position is remote. Each marker also includes a link for applying to the job. The homepage also features four buttons that navigate to each respective page.
 
+<img width="1440" alt="Screenshot 2023-02-23 at 10 24 40 PM" src="https://user-images.githubusercontent.com/112406455/221091531-dd930ef2-f787-4e6d-9146-66a3c22aee00.png">
+
 The "States" page displays a bar chart of the median household income for each state, providing job seekers with information to compare the salary of a job listing against the median income for that state.
 
-The "Jobs" page contains two bar charts. The first chart compares the median salary of four common job positions in the field of data: python developer, data scientist, full-stack developer, and data analyst. The second chart displays the frequency of tools mentioned in the job descriptions of the listed positions. This information can be used by job seekers to determine which skills to prioritize in their job search.
+<img width="1440" alt="Screenshot 2023-02-23 at 9 02 22 PM" src="https://user-images.githubusercontent.com/112406455/221091573-46dd1317-cdb0-4711-a2e4-e11397db9883.png">
 
-The dashboard also features two pages with data tables. The "States" data table includes information such as the state's website, demonym, nickname, and founded date. The "Jobs" data table contains information on each job listing displayed on the map, including the job description.
+The "Jobs" page contains two bar charts. The first chart compares the median salary of four common job positions in the field of data: python developer, data scientist, full-stack developer, and data analyst.
+
+<img width="1440" alt="Screenshot 2023-02-23 at 9 02 44 PM" src="https://user-images.githubusercontent.com/112406455/221091783-5005f716-c107-4406-87f7-b9d9b7967ae4.png">
+
+The second chart displays the frequency of tools mentioned in the job descriptions of the listed positions. This information can be used by job seekers to determine which skills to prioritize in their job search.
+
+<img width="1400" alt="Screenshot 2023-02-23 at 9 02 51 PM" src="https://user-images.githubusercontent.com/112406455/221091811-d5f68522-d2e6-40ca-8c8a-f95d545a35c9.png">
+
+The dashboard also features two pages with data tables. The "States" data table includes information such as the state's website, demonym, nickname, and founded date.
+
+<img width="1440" alt="Screenshot 2023-02-23 at 9 03 05 PM" src="https://user-images.githubusercontent.com/112406455/221091958-92987a87-ec99-4658-ad39-b040a6337676.png">
+
+
+The "Jobs" data table contains information on each job listing displayed on the map, including the job description.
+
+<img width="1440" alt="Screenshot 2023-02-23 at 9 03 48 PM" src="https://user-images.githubusercontent.com/112406455/221091985-b1f923a9-a87f-4987-b367-a4ddbcf6a6aa.png">
+
 
 The navigation menu allows users to easily switch between the different pages of the dashboard.
+
+<img width="236" alt="Screenshot 2023-02-23 at 10 31 07 PM" src="https://user-images.githubusercontent.com/112406455/221092295-28df2e6c-3549-4a71-9506-d156c0dbed3a.png">
+
+## Getting Started 
+To get started with this project, follow the steps below:
+1. Clone the repository to your local machine using git clone https://github.com/username/data-jobs-dashboard.git.
+2. Ensure you have Python 3.7 or later installed on your machine.
+3. Install the required Python packages by running pip install -r requirements.txt in your terminal.
+4. Set up a PostgreSQL database by running the jobs.sql script in the root directory.
+6. Run the Flask app by running python app.py in your terminal.
+7. Navigate to http://localhost:5050 in your web browser to use the application.
