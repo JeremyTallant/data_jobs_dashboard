@@ -73,4 +73,4 @@ To get started with this project, follow the steps below:
 3. Install the required Python packages by running pip install -r requirements.txt in your terminal.
 4. Set up a PostgreSQL database by running the jobs.sql script in the root directory.
 6. Run the Flask app by running python app.py in your terminal.
-7. Navigate to http://localhost:5050 in your web browser to use the application.
+7. Navigate to http://127.0.0.1:5050/ in your web browser to use the application.
