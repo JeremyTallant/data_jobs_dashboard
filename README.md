@@ -66,7 +66,7 @@ The navigation menu allows users to easily switch between the different pages of
 
 ## Getting Started 
 To get started with this project, follow the steps below:
-1. Clone the repository to your local machine using git clone https://github.com/username/data-jobs-dashboard.git.
+1. Clone the repository to your local machine using git clone https://github.com/username/data_jobs_dashboard.git.
 2. Ensure you have Python 3.7 or later installed on your machine.
 3. Install the required Python packages by running pip install -r requirements.txt in your terminal.
 4. Set up a PostgreSQL database by running the jobs.sql script in the root directory.
