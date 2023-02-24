@@ -8,8 +8,6 @@
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Deployment](#deployment)
 - [Future Work](#future-work)
 
 ## Project Description
