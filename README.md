@@ -74,3 +74,13 @@ To get started with this project, follow the steps below:
 4. Set up a PostgreSQL database by running the jobs.sql script in the root directory.
 6. Run the Flask app by running python app.py in your terminal.
 7. Navigate to http://127.0.0.1:5050/ in your web browser to use the application.
+
+## Future Work 
+* Expand the job search to include other countries and regions
+* Integrate natural language processing to extract additional insights from the job descriptions
+* Implement user authentication and account creation
+* Allow users to save job postings and apply directly through the website
+* Incorporate a feature that suggests additional skills for job seekers based on their search history and skills mentioned in job descriptions
+* Implement data caching to improve performance and reduce API costs
+* Enhance data visualization and design elements to provide a more engaging and user-friendly experience
+* Utilize machine learning algorithms to predict job trends and provide personalized recommendations for job seekers
