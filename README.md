@@ -26,3 +26,11 @@ Two primary APIs were utilized to collect data, both of which were acquired from
 
 ## Data Cleaning and Loading 
 The [notebooks](https://github.com/JeremyTallant/data_jobs_dashboard/tree/main/notebooks) folder includes two Jupyter notebook files: one for data cleaning and the other for data exploration. The data cleaning process involved loading the data into Pandas data frames, removing nulls or irrelevant data, and then uploading three tables (states, jobs, and salary) into a PostgreSQL database. The data exploration notebook analyzed the job descriptions within the "jobs" table to determine which tools were mentioned most frequently. The results can be used to assist job seekers in identifying the skills they need to sharpen or acquire in order to increase their chances of landing a job. The tool data was also uploaded into the database, where it can be utilized within the dashboard for visual representation.
+
+## Tech Stack
+The following technologies were used to develop the project:
+
+* Python (including Pandas, Flask, and SQLAlchemy)
+* JavaScript (including Plotly, Leaflet, and D3.js)
+* HTML and CSS
+* Bootstrap
