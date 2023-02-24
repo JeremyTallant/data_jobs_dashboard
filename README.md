@@ -28,7 +28,7 @@ The [notebooks](https://github.com/JeremyTallant/data_jobs_dashboard/tree/main/n
 ## Tech Stack
 The following technologies were used to develop the project:
 
-* Python (including Pandas, Flask, and SQLAlchemy)
+* Python (including Pandas, Flask, JSON, and SQLAlchemy)
 * JavaScript (including Plotly, Leaflet, and D3.js)
 * HTML and CSS
 * Bootstrap
